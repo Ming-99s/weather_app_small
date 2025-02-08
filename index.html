@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="search">
+            <input type="text" id="search" placeholder="Serach City">
+            <i class='bx bx-search-alt-2'></i>
+        </div>
+
+        <main class="found">
+            <div class="row1">
+                <div class="city">
+                    <i class='bx bx-current-location' ></i>
+                    <h1 class="name_city"​​​​>
+                        Phnom Penh
+                    </h1>
+                </div>
+                <div class="date">
+                    <p>Thu, 08 Aug</p>
+                </div>
+            </div>
+
+            <div class="row2">
+                <img src="assets/weather/clouds.svg" id="imageHero" alt="">
+
+                <div class="weather">
+                    <span class="temp">30°C</span>
+                    <p class="weather-status">Cloud</p>
+
+                </div>
+            </div>
+
+            <div class="row3">
+                <div class="Humidity box">
+                    <i class='bx bx-droplet' ></i>
+                    <div class="text">
+                        <p>Humidity</p>
+                        <p class="Humidity_cal num">74%</p>
+                    </div>
+                </div>
+
+                <div class="wind_speed box">
+                    <i class='bx bx-wind' ></i>
+                    <div class="text">
+                        <p>Wind Speed</p>
+                        <p class="wind_speed_cal num">4.12 M/s</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="last_row">
+                <div class="hide">
+                    <div class="scroll">
+                        <div class="box">
+                            <p class="date">Aug 09</p>
+                            <img src="assets/weather/rain.svg">
+                            <p class="temp">28°C</p>
+                        </div>
+                        <div class="box">
+                            <p class="date">Aug 09</p>
+                            <img src="assets/weather/rain.svg">
+                            <p class="temp">28°C</p>
+                        </div><div class="box">
+                            <p class="date">Aug 09</p>
+                            <img src="assets/weather/rain.svg">
+                            <p class="temp">28°C</p>
+                        </div><div class="box">
+                            <p class="date">Aug 09</p>
+                            <img src="assets/weather/rain.svg">
+                            <p class="temp">28°C</p>
+                        </div><div class="box">
+                            <p class="date">Aug 09</p>
+                            <img src="assets/weather/rain.svg">
+                            <p class="temp">28°C</p>
+                        </div><div class="box">
+                            <p class="date">Aug 09</p>
+                            <img src="assets/weather/rain.svg">
+                            <p class="temp">28°C</p>
+                        </div><div class="box">
+                            <p class="date">Aug 09</p>
+                            <img src="assets/weather/rain.svg">
+                            <p class="temp">28°C</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <main class="not-found">
+            <img src="assets/message/not-found.png">
+            <h1>Search City</h1>
+            <p>Find out the weather conditions of the city</p>
+        </main>
+
+        <main class="search_city" style="display: none;">
+            <img src="assets/message/search-city.png" alt="">
+            <h1>Search City</h1>
+            <p>Find out the weather conditions of the city</p>
+        </main>
+        
+
+
+    </section>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
